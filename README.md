@@ -7,3 +7,11 @@ Authors:
 
 ### Project Description
 
+### Timings
+
+| Team Member | Operating System | RAM | Processor | Is SSD | Time to combine data CSVs | Time to load combined CSV and perform EDA|
+|:-----------:|:----------------:|:---:|:---------:|:------:|:----------:|:----------:|
+| Member 1    |  Tanmay Agarwal  |     |           |        |            ||
+| Member 2    |  Robin Dhillon   | 16.00 GB | Intel(R) Core(TM) i7-970h CPU @ 2.60GHz 6 Cores, 12 Logical Processors |  Yes   |  9min 43s  |1min 4s |
+| Member 3    |  Mehdi Neji      |     |           |        |            ||
+| Member 4    |  Ritisha Sharma  | 8.00 GB | Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz | Yes | 22min 13s | 10min 25s |
