@@ -1,11 +1,18 @@
 ## 525 Group 1
 
+- [Project Description](#project-description)
+- [Data](#data)
+- [Timings](#timings)
+- [License](#license)
+- [Authors](#authors)
+
+
 ### Project Description
 
 The purpose of this project is to investigate the downfalls of working with Big Data in plain CSV and `pandas`. We looked into how long it took to download the data using the figshare API, combine the CSVs to into a single file, and load that combined CSV in order to perform EDA in R. Additionally, we tried performing these operations on multiple computers to explore what effect the RAM, processor, and existence of SSD had.
 
 ### Data
-The data we are using for this project contains information about the daily rainfall in Australia. The combined data included columns: `time`, `lat_min`, `lat_max`, `lon_min`, `lon_max`, `rain (mm/day)`, and `model` (originally separated into different files). The data was downloaded using figshare API using the url: "https://api.figshare.com/v2/articles/14096681".
+The data we are using for this project contains information about the daily rainfall in Australia. The combined data included columns: `time`, `lat_min`, `lat_max`, `lon_min`, `lon_max`, `rain (mm/day)`, and `model` (originally separated into different files). The data was downloaded using figshare API from [here](https://api.figshare.com/v2/articles/14096681).
 
 ### Timings
 
@@ -29,3 +36,6 @@ This data science project is created for DSCI 525 (Web and Cloud Computing); a c
 - Tanmay Agarwal 
 - Mehdi Neji 
 
+<a href="https://github.com/UBC-MDS/525-group-01/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=UBC-MDS/525-group-01&max=1000" />
+</a>
