@@ -1,18 +1,27 @@
-## 525 Group 1
+## 525 Group 1 - Rainfall Prediction
 
-- [Project Description](#project-description)
+## Authors:
+
+This data science project is created for DSCI 525 (Web and Cloud Computing); a course in the Master of Data Science program at the University of British Columbia.
+
+- Robin Dhillon
+- Ritisha Sharma 
+- Tanmay Agarwal 
+- Mehdi Neji 
+---
+- [Project Overview](#project-overview)
 - [Data](#data)
 - [Timings](#timings)
 - [License](#license)
 - [Authors](#authors)
 
 
-### Project Description
+### Project Overview
 
-The purpose of this project is to investigate the downfalls of working with Big Data in plain CSV and `pandas`. We looked into how long it took to download the data using the figshare API, combine the CSVs to into a single file, and load that combined CSV in order to perform EDA in R. Additionally, we tried performing these operations on multiple computers to explore what effect the RAM, processor, and existence of SSD had.
+The purpose of this project is to investigate the downfalls of working with Big Data in plain CSV and `pandas`. We looked into how long it took to download the data using the figshare API, combine the CSVs to into a single file, and load that combined CSV in order to perform EDA in R. Additionally, we tried performing these operations on multiple computers to explore what effect the RAM, processor, and existence of SSD had. The ultimate goal of the project is to create an ensemble model and compare the predictions with the actual rainfall. We will be using cloud services such as AWS (Amazon Web Services) to deploy our model. 
 
 ### Data
-The data we are using for this project contains information about the daily rainfall in Australia. The combined data included columns: `time`, `lat_min`, `lat_max`, `lon_min`, `lon_max`, `rain (mm/day)`, and `model` (originally separated into different files). The data was downloaded using figshare API from [here](https://api.figshare.com/v2/articles/14096681).
+The data we are using for this project contains information about the daily rainfall in New South Wales, Australia. The combined data included columns: `time`, `lat_min`, `lat_max`, `lon_min`, `lon_max`, `rain (mm/day)`, and `model` (originally separated into different files). The data was downloaded using figshare API from [here](https://api.figshare.com/v2/articles/14096681).
 
 ### Timings
 
@@ -27,14 +36,6 @@ The data we are using for this project contains information about the daily rain
 
 This project is licensed under the terms of the [MIT](LICENSE) license.
 
-## Authors:
-
-This data science project is created for DSCI 525 (Web and Cloud Computing); a course in the Master of Data Science program at the University of British Columbia.
-
-- Robin Dhillon
-- Ritisha Sharma 
-- Tanmay Agarwal 
-- Mehdi Neji 
 
 <a href="https://github.com/UBC-MDS/525-group-01/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=UBC-MDS/525-group-01&max=1000" />
