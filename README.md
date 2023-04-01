@@ -25,6 +25,8 @@ The data we are using for this project contains information about the daily rain
 
 ### Timings
 
+The main results of our analysis are shown in the table below:
+
 | Team Member | Operating System | RAM | Processor | Is SSD |  Load CSV| Change Dtype | Select Columns | Dtype+Columns | Chunks|
 |:-----------:|:----------------:|:---:|:---------:|:------:|:----------:|:----------:|:----------:|:----------:|:----------:|
 | Member 1    |  Tanmay Agarwal  | 16.00 GB | Apple M1 Pro |   Yes |   42s | 26.43s | 36.31s | 18.44s | 30.66s|
