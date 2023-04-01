@@ -7,6 +7,14 @@ Authors:
 
 ### Project Description
 
+The purpose of this project is to investigate the downfalls of working with Big Data in plain CSV and `pandas`. We investigated how long it took to download the data using the figshare API, combine the CSVs to into a single file, and load that combined CSV in order to perform EDA. Additionally, we tried performing these operations on multiple computers to explore what effect the RAM, processor, and existence of SSD had.
+
+#### Problems and Challenges
+There were plenty of challenges we faced in completing these tasks. Since it took very long to run, it was difficult to debug the code and examine whether we were getting the right results. The strain of the tasks caused one of the team member's computer to freeze. One way we tackled these challenges was to run parrallel on multiple computers: each team member created a separate notebook to record how long it took their computer to perform the operations mentioned above. 
+
+#### Why We Chose Parquet
+
+
 ### Timings
 
 | Team Member | Operating System | RAM | Processor | Is SSD | Time to combine data CSVs | Time to load combined CSV and perform EDA|
@@ -15,3 +23,5 @@ Authors:
 | Member 2    |  Robin Dhillon   | 16.00 GB | Intel(R) Core(TM) i7-970h CPU @ 2.60GHz 6 Cores, 12 Logical Processors |  Yes   |  9min 43s  |1min 4s |
 | Member 3    |  Mehdi Neji      | 32.00 GB | Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz   1.50 GHz   |   Yes      |    26 min        | 1 min and 53 s|
 | Member 4    |  Ritisha Sharma  | 8.00 GB | Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz | Yes | 22min 13s | 10min 25s |
+
+#### Summary of Observations
